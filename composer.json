@@ -1,0 +1,25 @@
+{
+    "name": "kstros/wphidrohub",
+    "description": "Wordpress plugin for mineral water factory management",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "wphh\\": "wphh/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jayron Castro",
+            "email": "eu@jayroncastro.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.4"
+    }
+}
